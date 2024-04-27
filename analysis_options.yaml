@@ -1,0 +1,32 @@
+include: package:very_good_analysis/analysis_options.5.0.0.yaml
+linter:
+  rules:
+    public_member_api_docs: false
+    lines_longer_than_80_chars: false
+    flutter_style_todos: false
+    one_member_abstracts: false
+    prefer_constructors_over_static_methods: false
+
+analyzer:
+  #    strong-mode:
+  #    implicit-casts: false
+  #    implicit-dynamic: false
+
+  language:
+    strict-inference: true
+
+  errors:
+    argument_type_not_assignable: info
+    invalid_annotation_target: ignore
+
+  exclude:
+    - '**/*.freezed.dart'
+    - '**/*.g.dart'
+    - '**/*.pb.dart'
+    - '**/*.pbenum.dart'
+    - '**/*.pbgrpc.dart'
+    - '**/*.pbjson.dart'
+    - '**/*.pbserver.dart'
+    - '**/intl_messages*.dart'
+    - 'lib/**.config.dart'
+    - 'lib/firebase_options.dart'
