@@ -52,7 +52,7 @@ dev_dependencies:
     sdk: flutter
   freezed: ^2.3.5
   golden_toolkit: ^0.15.0
-  injectable_generator: ^2.1.6
+  injectable_generator: ^2.6.1
   json_serializable: ^6.7.0
   mocktail: ^1.0.1
   recase: ^4.1.0
