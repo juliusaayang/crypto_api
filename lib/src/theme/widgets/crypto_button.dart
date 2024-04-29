@@ -13,7 +13,7 @@ class DirectCashButton extends StatefulWidget {
     this.disabled = false,
     this.isSmall = false,
     this.color = CryptoColors.primaryColor,
-    this.textColor = CryptoColors.neutralColor1,
+    this.textColor = CryptoColors.pureWhite,
     this.outline = false,
     this.icon,
     this.borderRadius = 13,

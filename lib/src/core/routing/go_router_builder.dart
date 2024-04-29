@@ -1,4 +1,5 @@
-import 'package:crypto_api/features/splash/presentation/page/splash_page.dart';
+import 'package:crypto_api/features/home/presentation/page/description_page.dart';
+import 'package:crypto_api/features/home/presentation/page/home_page.dart';
 import 'package:crypto_api/src/core/constants/keys.dart';
 import 'package:crypto_api/src/core/routing/routing.dart';
 import 'package:flutter/foundation.dart';
@@ -10,7 +11,7 @@ class GoRouterBuilder {
     late GoRouter goRouter;
     return goRouter = GoRouter(
       debugLogDiagnostics: kDebugMode,
-      initialLocation: Paths.splash,
+      initialLocation: Paths.home,
       navigatorKey: Keys.navigatorKey,
       observers: [
         MultiNavigatorObserver(),
@@ -20,11 +21,20 @@ class GoRouterBuilder {
       },
       routes: [
         GoRoute(
-          path: Paths.splash,
-          name: Routes.splash,
+          path: Paths.home,
+          name: Routes.home,
           pageBuilder: (context, state) {
-            return SplashPage(state: state);
+            return HomePage(state: state);
           },
+          routes: [
+            GoRoute(
+              path: Paths.description,
+              name: Routes.description,
+              pageBuilder: (context, state) {
+                return DescriptionPage(state: state);
+              },
+            ),
+          ],
         ),
       ],
     );

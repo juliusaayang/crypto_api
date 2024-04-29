@@ -1,0 +1,68 @@
+- /splash
+- /developer
+- /home
+  - /home/swapCurrencies
+  - /home/azaTagSend
+  - /home/transfer
+  - /home/debit-card-amount
+  - /home/fintech
+- /card-onboard
+  - /card-onboard/card-agreement
+- /card
+  - /card/card-details
+    - /card/card-details/card-transaction
+    - /card/card-details/virtual-card-details
+    - /card/card-details/add-money
+    - /card/card-details/change-card-color
+- /personalizeCard
+- /settings
+  - /settings/personal-details
+  - /settings/change-pin-old-pin
+    - /settings/change-pin-old-pin/change-pin-new-pin
+  - /settings/create-pin-new-pin
+    - /settings/create-pin-new-pin/create-pin-confirm-pin
+  - /settings/reset-pin-otp
+    - /settings/reset-pin-otp/reset-pin-new-pin
+  - /settings/change-password-set-new-password
+  - /settings/biometrics
+  - /settings/enable2FA
+    - /settings/enable2FA/enter2FA
+      - /settings/enable2FA/enter2FA/setup2FASuccessful
+    - /settings/enable2FA/deactivate-2fa
+  - /settings/deleteAccount
+  - /settings/faq
+  - /settings/verification-levels
+    - /settings/verification-levels/levelOneStageOne
+      - /settings/verification-levels/levelOneStageOne/levelOneStageTwo
+        - /settings/verification-levels/levelOneStageOne/levelOneStageTwo/levelOneStageThree
+    - /settings/verification-levels/levelTwoStageOne
+    - /settings/verification-levels/levelThree
+  - /settings/referral
+    - /settings/referral/viewEarning
+  - /settings/debit-card-page
+    - /settings/debit-card-page/debit-card-details
+    - /settings/debit-card-page/add-debit-card
+  - /settings/contactUs
+  - /settings/banks
+    - /settings/banks/deleteBankDetails
+    - /settings/banks/selectCurrency
+    - /settings/banks/addBankDetails
+  - /settings/notification
+- /transaction
+  - /transaction/transactionDetail
+- /wallet
+  - /wallet/wallet-detail
+    - /wallet/wallet-detail/reciveCrypto
+    - /wallet/wallet-detail/wallet-transaction
+- /get-started
+  - /get-started/existing-onboarding
+  - /get-started/onboarding
+    - /get-started/onboarding/signup
+      - /get-started/onboarding/signup/email-verification
+    - /get-started/onboarding/login
+      - /get-started/onboarding/login/two-fa
+      - /get-started/onboarding/login/forgot-password
+      - /get-started/onboarding/login/reset-code
+      - /get-started/onboarding/login/set-new-password
+- /withdrawal
+- /successful

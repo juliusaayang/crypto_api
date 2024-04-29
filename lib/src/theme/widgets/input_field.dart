@@ -134,7 +134,7 @@ class _InputFieldState extends State<InputField> {
                 : widget.suffix,
             hintText: widget.placeholder,
             hintStyle: textTheme.bodySmall14Regular!.copyWith(
-              color: CryptoColors.neutralColor2,
+              color: CryptoColors.pureWhite,
             ),
           ),
           onTapOutside: (event) {

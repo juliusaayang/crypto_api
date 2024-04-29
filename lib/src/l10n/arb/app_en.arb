@@ -1,9 +1,22 @@
 {
     "@@locale": "en",
     "appTitle": "Crypto API",
+    "des1": "Market Cap",
+    "des2": "Market Cap Rank",
+    "des3": "24 Hour Trading Vol",
+    "des4": "24 High",
+    "des5": "24 Low",
+    "des6": "Circulation Supply",
+    "des7": "Total Supply",
     "errorUnknown": "Unknown error, please try again",
     "errorExpiredToken": "Your session has expired, please login again",
     "errorMessage": "Oops, something went wrong",
     "errorInternetConnection": "No internet connection, please reconnect to the internet and try again",
-    "errorTimeOut": "Connection Timed Out. Check your internet and try again."
+    "errorTimeOut": "Connection Timed Out. Check your internet and try again.",
+    "home1": "COIN",
+    "home2": "PRICE",
+    "home3": "24H",
+    "home4": "MARKET CAP",
+    "homeTitle": "Crypto",
+    "usdText": "USD"
 }
